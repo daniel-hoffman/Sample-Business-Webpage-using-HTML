@@ -1,0 +1,30 @@
+<html>
+<head>
+<style></style>
+<title>JS Game</title>
+<script>
+ourNumber=Math.ceil(Math.random()*100);
+function checkGuess(){
+theirNumber=document.theForm.theGuess.value;
+if(theirNumber==ourNumber){alert("You win");}
+else if(theirNumber>ourNumber){alert("too high!");
+document.theForm.theGuess.value="";
+}
+else{alert("too low!");
+document.theForm.theGuess.value="";
+}
+}
+</script>
+</head>
+<body>
+<form name="theForm">
+Guess a number between 1 and 100: <input type="text" name="theGuess">
+<input type="button" value="Guess It!" onclick="checkGuess()">
+</form>
+<header></header>
+<nav></nav>
+<main>
+</main>
+<footer></footer>
+</body>
+</html>

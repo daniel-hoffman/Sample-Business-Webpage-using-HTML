@@ -1,0 +1,9 @@
+h1{font-family:arial; color:red; font-size:28pt}
+h2{font-family:verdana; color: greem; font-size:22pt}
+h6{font-family:hattenschweiler; color:blue; font-size:16pt}
+a{text-decoration:none}
+img{position:relative;padding:0px}
+body{background-image:url("background2.jpg");background-repeat:no-repeat;background-size:cover;}
+nav{background-color:yellow;float:left;width:150px;height:500px}  
+ul{list-style-image:url('icon.png');}
+li:hover{background-color:orange;text-decoration:underline}
